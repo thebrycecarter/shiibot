@@ -65,10 +65,4 @@ module.exports = client => {
             };
         }
     });
-    client.on('message', officer => {
-        if(officer.channel.name === 'officer-chat'){
-            console.log(officer.author.username)
-            console.log(officer.content)
-        }
-    });
 }
