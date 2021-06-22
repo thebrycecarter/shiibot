@@ -8,8 +8,8 @@ module.exports = client => {
             color: 3447003,
             title: "Role Selection",
             fields: [
-                { name: "#", value: "1\n2\n3\n4", inline: true },
-                { name: "Role", value: "Raider\nPvPer/Casual\nPug\nFriend", inline: true }
+                { name: "#", value: "1\n2\n3", inline: true },
+                { name: "Role", value: "Raider\nPvPer/Casual\nPug", inline: true }
             ]
         }
     })
